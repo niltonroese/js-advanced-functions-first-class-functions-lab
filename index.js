@@ -23,6 +23,13 @@ const fareTripler = (a) => {
     return a*3
     }
 
-const selectDifferentDrivers = (arr, fn) => {
-    return fn(arr)
+const selectDifferentDrivers = (array,fn) => {
+    return fn(array);
 }
+
+// const selectDifferentDrivers = (array, returnFirstTwoDrivers) => {
+//     return returnFirstTwoDrivers (array)
+// }
+
+console.log(fareTripler(10));
+console.log(selectDifferentDrivers(['pepe','tom','juan','maria'],returnFirstTwoDrivers));
